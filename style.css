@@ -1,0 +1,66 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.flex-column
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+}
+.content-container
+{
+    width: 1024px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.photo{
+    justify-content: center;
+    align-items: center;
+}
+
+.logo
+{
+    border: 0px;
+    border-radius: 100%;
+}
+
+.bio>ul
+{
+    font-size: 32px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.general-box
+{
+    justify-content: space-around;
+}
+
+.contacts>span,a
+{
+    font-style: italic;
+    font-size:25px;
+}
+
+h2{
+    font-size: 35px;
+    margin: 5px;
+    padding: 0px;
+}
