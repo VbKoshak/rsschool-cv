@@ -7,6 +7,7 @@
 * mail: boltrukanisvlad@gmail.com
 * discord: #9045
 * mobile: +375(33) 685-15-01
+* vk: https://vk.com/vbkoshak
 # Skills
 ## English
 * level B1
