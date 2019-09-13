@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}height: 100vh;
 }
 
 .flex
@@ -28,6 +29,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+    height: 100vh;
 }
 
 .photo{
@@ -48,19 +50,44 @@
     margin: 0px;
 }
 
+.unchecked 
+{
+    list-style-type: none;
+}
+
 .general-box
 {
     justify-content: space-around;
 }
 
-.contacts>span,a
+.contacts span, 
+.contacts a
 {
     font-style: italic;
     font-size:25px;
 }
 
-h2{
+h2
+{
     font-size: 35px;
     margin: 5px;
     padding: 0px;
+}
+
+.skills-box
+{
+    justify-content: space-between;
+}
+
+.skills-box>div
+{
+    padding: 10px 30px;
+    font-size: 28px;
+    margin: 0 5px;
+}
+
+.skills-box ul
+{
+    list-style-type: circle;
+    margin-top: 10px;
 }
