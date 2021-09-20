@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
     <title>Rsscholl-cv</title>
 </head>
 <body>
@@ -96,7 +97,18 @@
             </section>
             <section id="code">
                 <h2>Code</h2>
-                <p></p>
+                <p>
+                    <pre><code class="html">
+                        function nouveau(Class, ...args) {
+                            var thisValue = Object.create(Class.prototype);
+                            var result = Class.apply(thisValue, args);
+                            if ((typeof result === 'object' && result !== null) || typeof result === 'function') {
+                              return result;
+                            }
+                            return thisValue;
+                          }
+                    </code></pre>
+                </p>
             </section>
         </main>
         <footer class="flex row jc-sb">
@@ -111,4 +123,6 @@
         </footer>
     </div>
 </body>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 </html>
