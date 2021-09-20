@@ -97,18 +97,20 @@
             </section>
             <section id="code">
                 <h2>Code</h2>
-                <p>
-                    <pre><code class="html">
-                        function nouveau(Class, ...args) {
-                            var thisValue = Object.create(Class.prototype);
-                            var result = Class.apply(thisValue, args);
-                            if ((typeof result === 'object' && result !== null) || typeof result === 'function') {
-                              return result;
+                <span>
+                    <pre>
+                        <code class="html">
+                            function nouveau(Class, ...args) {
+                                var thisValue = Object.create(Class.prototype);
+                                var result = Class.apply(thisValue, args);
+                                if ((typeof result === 'object' && result !== null) || typeof result === 'function') {
+                                return result;
+                                }
+                                return thisValue;
                             }
-                            return thisValue;
-                          }
-                    </code></pre>
-                </p>
+                        </code>
+                    </pre>
+                </span>
             </section>
         </main>
         <footer class="flex row jc-sb">
