@@ -3,6 +3,7 @@
 * name: Vladislav
 * surname: Boltruknis
 * age: 21
+* education: bachelors degree as cybernetics-economist
 ## Contacts
 * mail: boltrukanisvlad@gmail.com
 * discord: vbkoshak#9045
