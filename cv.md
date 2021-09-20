@@ -17,7 +17,7 @@
 * regular communication with customer
 ## additionall skills
 * basics of c++ in the university
-* participated in js-fe rsscholl previously
+* participated in js-fe rsschool previously
 * learned basics of devops personally
 # Summary
 I am currently working as an Java automation engineer, and i really enjoy my work. Still i am really into learning new things and willing to finish rsschol. This will give me a chance not only become a front-end enginner if i wanted to switch my current occupation, but also will help me to become a better professional at my current possition. 
