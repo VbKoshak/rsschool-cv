@@ -31,6 +31,10 @@ body {
     justify-content: space-evenly;
 }
 
+.jc-sa {
+    justify-content: space-around;
+}
+
 .jc-fs {
     justify-content: flex-start;
 }
@@ -53,4 +57,25 @@ body {
 .header {
     padding: 10px 0;
     margin: 10px 0;
+}
+
+.bio-list>li {
+    margin: 5px 0;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.bio-image{
+    border-radius: 50%;
+    border-radius: 3px solid grey;
+}
+
+h2 {
+    margin: 10px 50%;
+}
+
+.author {
+    align-items: flex-end;
 }

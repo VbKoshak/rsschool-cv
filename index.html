@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
     <title>Rsscholl-cv</title>
 </head>
 <body>
@@ -42,18 +43,23 @@
             </nav>
         </header>
         <main>
-            <section id="bio">
+            <section id="bio" class="flex column">
                 <h2>Bio</h2>
-                <div>
+                <div class="flex row jc-sb">
+                    <img src="static/logo.jpg" alt="Logo here" width="100" height="100" class="bio-image">
                     <div>
-                        <ul>
+                        <ul class="flex column bio-list">
                             <li>name: Vladislav</li>
                             <li>surname: Boltruknis</li>
                             <li>age: 21</li>
                             <li>education: bachelors degree as cybernetics-economist</li>
                         </ul>
                     </div>
-                    <img src="static/logo.jpg" alt="Logo here" width="300" height="300">
+                </div>
+                <div>
+                    <p>
+                        I am currently working as an Java automation engineer, and i really enjoy my work. Still i am really into learning new things and willing to finish rsschol. This will give me a chance not only become a front-end enginner if i wanted to switch my current occupation, but also will help me to become a better professional at my current possition. 
+                    </p>
                 </div>
             </section>
             <section id="contacts">
@@ -91,22 +97,34 @@
             </section>
             <section id="code">
                 <h2>Code</h2>
-                <p></p>
+                <div>
+                    <pre>
+                        <code class="html">
+                            function nouveau(Class, ...args) {
+                                var thisValue = Object.create(Class.prototype);
+                                var result = Class.apply(thisValue, args);
+                                if ((typeof result === 'object' && result !== null) || typeof result === 'function') {
+                                return result;
+                                }
+                                return thisValue;
+                            }
+                        </code>
+                    </pre>
+                </div>
             </section>
         </main>
-        <footer>
+        <footer class="flex row jc-sb">
             <a href="https://rs.school/js/">
                 <img src="static/rsschool_logo.svg" alt="course logo" class="logo" width="200" height="100">
             </a>
-            <div class="author">
+            <div class="author flex">
                 <div class="github-link">
-                    <a href="https://github.com/VbKoshak">By VbKoshak</a>
-                </div>
-                <div class="powered-by">
-                    2021
+                    <p>By <a href="https://github.com/VbKoshak">VbKoshak</a> <span>2021</span></p>
                 </div>
             </div>
         </footer>
     </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
